@@ -313,6 +313,63 @@ footer .footer_quicklink a:hover::after {
 /*========== FOOTER END ========*/
 
 
+/*===== BACK TO TOP ARROW ====*/
+#back_to_top_arrow {
+    background-color: var(--primary);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 75px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#back_to_top_arrow i {
+    color: var(--light);
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+#back_to_top_arrow:hover {
+    background-color: #9f270f;
+}
+
+#back_to_top_arrow i:hover {
+    padding-bottom: 5px;
+}
+
+
+#whatsapp_icon {
+    background-color: #25D366;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#whatsapp_icon:hover {
+    background: #199446;
+}
+
+#whatsapp_icon i {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    color: var(--light);
+}
+
 
 /*====================
     HOME PAGE
@@ -621,6 +678,7 @@ footer .footer_quicklink a:hover::after {
 
 .our_product_card img {
     transition: all .3s ease-in-out;
+    border-radius: 8px 8px 0 0;
 }
 .our_product_card img:hover {
     transform: scale(1.1);

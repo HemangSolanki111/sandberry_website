@@ -1,8 +1,7 @@
-@media (max-width:1200px) {
-
-}
+@media (max-width:1200px) {}
 
 @media (max-width:991px) {
+
     /* Header */
     .navbar-toggler {
         border: none !important;
@@ -34,6 +33,7 @@
 
 
 }
+
 @media (max-width:768px) {
     h1 {
         font-size: 40px;
@@ -61,7 +61,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -79,7 +79,23 @@
         font-size: 30px;
         font-weight: 600;
     }
-    
+
+    /*====== PRODUCT PAGE ========*/
+    .our_product_card {
+        margin: 20px 0;
+    }
+
+    /*====== APPLICATION PAGE ========*/
+    #application_sec .application_card {
+        margin: 10px 0;
+    }
+
+
+    /*======= CONTACT US PAGE =======*/
+    .contact_info {
+        padding: 20px 0;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -109,15 +125,42 @@
         margin-top: 7px;
     }
 
+    /* Footer */
+    .footer_bottom {
+        font-size: 10px;
+    }
+
+    /*===== Home Page ====*/
+
     /* Welcome Section */
+    .welcome_sec {
+        padding: 20px 0;
+    }
+
     .welcome_sec h2 {
         font-size: 30px;
     }
 
+    /*========== Why CHoose US Start ========*/
+    .why_choose {
+        padding: 0 0 20px 0;
+    }
+
     /*======= OUR PRODUCT PAGE ====*/
+    .our_product_sec {
+        padding: 20px 0;
+    }
+
     #our_product h2 {
         font-size: 30px;
         margin-bottom: 10px;
+    }
+
+
+    /*======== ABOUT US PAGE =======*/
+    /*==== About Us Section =====*/
+    #about_us {
+        padding: 20px 0;
     }
 
 
@@ -125,6 +168,11 @@
     #application_sec h2 {
         font-size: 30px;
         margin-bottom: 10px;
+    }
+
+    /*====== PRODUCT PAGE ========*/
+    .our_product_card {
+        margin: 10px 0;
     }
 
     /*====== CONTACT US PAGE ========*/
@@ -138,7 +186,9 @@
     }
 
 }
+
 @media (max-width:320px) {
+
     /* Header */
     header .navbar-brand img {
         height: 50px;

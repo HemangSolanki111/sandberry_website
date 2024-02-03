@@ -1,3 +1,19 @@
+// Scroll Arrow Back to Top
+$(window).scroll(function () {
+	if ($(this).scrollTop() >= 80) {        // If page is scrolled more than 80px
+		$('#back_to_top_arrow').fadeIn(200);    // Fade in the arrow
+	} else {
+		$('#back_to_top_arrow').fadeOut(200);   // Else fade out the arrow
+	}
+});
+
+$('#back_to_top_arrow').click(function () {
+    $('body,html').animate({
+        scrollTop: 0
+    }, 500);
+});
+
+
 // Header Scroll
 let nav = document.querySelector(".navbar");
 window.onscroll = function () {
@@ -61,3 +77,4 @@ $(".header-carousel").owlCarousel({
 //     }, 1000);
 // }
 // refreshPage();
+
