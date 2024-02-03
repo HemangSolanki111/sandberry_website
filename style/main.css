@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+:root {
+    --primary: #ec4c2c;
+    --light: #F5F5F5;
+    --dark: #353535;
+}
+
+.owl-carousel .owl-stage {
+    padding: 0 !important;
+    margin: 0 !important;
+    /* overflow-x: hidden; */
+    box-shadow: none !important;
+}
+
+a, 
+button {
+    outline: none !important;
+    text-decoration: none;
+    box-shadow: none;
+    transition: all .4s ease-in-out;
+}
+
+a:hover,
+a:focus,
+select:focus,
+button:focus,
+.btn:focus,
+btn:focus {
+    outline: none !important;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    outline: none !important;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    color: var(--dark);
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input,
+select,
+textarea {
+    box-shadow: none !important;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.org-btn {
+    color: white;
+    background-color: var(--primary);
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+}
+
+.org-btn:hover {
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    border-color: var(--primary);
+}
+
+
+/* ================================= */
+
+/*========= Top Header ==========*/
+.top_header {
+    color: #35353584;
+}
+
+.top_header a {
+    color: #35353584;
+}
+
+/*========== HEADER START ========*/
+header {
+    padding: 0;
+    margin: 0;
+    z-index: 9999;
+}
+
+header .navbar-brand img {
+    height: 70px;
+}
+
+header .navbar .btn {
+    padding: 10px 20px;
+    color: white;
+    background: var(--primary);
+}
+
+header .navbar .nav-link {
+    color: var(--dark);
+    margin-right: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header .navbar .nav-link.active,
+header .navbar .nav-link:hover {
+    color: #ec4c2c;
+    border-bottom: 1px solid var(--primary);
+}
+
+
+header .navbar .btn:hover {
+    color: var(--primary);
+    background: transparent;
+    border-color: #ec4c2c;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.navbar {
+    transition: all .3s ease-in-out;
+    z-index: 9999;
+}
+/* change navbar style on scroll */
+
+.header-scrolled {   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+}
+
+/*========== HEADER END ========*/
+
+
+
+/*========== FOOTER START ========*/
+footer {
+    margin: 0;
+    padding: 50px 0 20px 0;
+    background: #000;
+    color: var(--light);
+}
+
+footer p {
+    color: var(--light);
+}
+
+footer .social_icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .social_icon a{
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid rgba(117, 117, 117, 0.401);
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+footer .social_icon a:hover {
+    background-color: var(--primary);
+}
+
+footer .footer_product a{
+    color: var(--light);
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0;
+    position: relative;
+}
+
+footer .footer_product a:hover {
+    padding-left: 15px;
+    color: var(--primary);
+}
+
+footer .footer_product a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    left: 0;
+    top: 20px;
+}
+
+footer .footer_product a:hover::after {
+    width: 8px;
+}
+
+footer .footer_quicklink a {
+    color: var(--light);
+    font-weight: 500;
+    display: block;
+    padding: 7px 0;
+    margin: 0;
+    position: relative;
+}
+
+footer .footer_quicklink a:hover {
+    padding-left: 15px;
+    color: var(--primary);
+}
+
+footer .footer_quicklink a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    left: 0;
+    top: 18px;
+}
+
+footer .footer_quicklink a:hover::after {
+    width: 8px;
+}
+
+.footer_bottom {
+    border-top: 1px solid rgba(73, 73, 73, 0.134);
+}
+
+.footer_bottom a {
+    color: var(--primary);
+}
+/*========== FOOTER END ========*/
+
+
+
+
+/*
+========================
+    Banner Start 
+========================
+*/
+.header-carousel .btn {
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.header-carousel .btn:hover{
+    background-color: white;
+    color: var(--primary);
+}
+
+.header-carousel .btn-brochure {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white    ;
+    font-weight: 600;
+}
+
+.header-carousel .btn-brochure:hover {
+    background-color: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.header-carousel .owl-nav {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    width: 25px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    /* border: 1px solid #FFFFFF; */
+    font-size: 22px;
+    transition: .5s;
+    display: none;
+}
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.header-carousel .owl-dots {
+    position: absolute;
+    height: 65px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    /* border: 1px solid #FFFFFF; */
+    transition: .5s;
+}
+
+.header-carousel .owl-dot::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 7px;
+    top: 4px;
+    left: 4px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+.header-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+/*========= Banner ENd ============*/
+
+
+/*========== Welcome Section ========*/
+.welcome_sec {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.welcome_sec h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+/*========== Welcome Section End ========*/
+
+/*========== Our Product Start ========*/
+.our_product_sec {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.our_product_sec h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.our_product_sec h2 {
+    overflow-x: hidden;
+}
+
+.our_product_sec p {
+    margin-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.our_product_sec figure {
+    overflow: hidden;
+}
+
+.our_product_sec img {
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.our_product_sec img:hover {
+    transform: scale(1.05);
+}
+/*========== Our Product ENd ========*/
+
+/*========== Why CHoose US Start ========*/
+.why_choose {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.why_choose h2 {
+    text-align: center;
+}
+
+/*========== Why CHoose US End ========*/
+
+
+
+/* 
+=====================================
+=====================================
+    ABOUT US Page
+=====================================
+=====================================
+*/
+
+/* About Card ====*/
+#feature_card {
+    margin: 0;
+    padding: 50px 0;
+}
+
+#feature_card .card {
+    padding: 20px 10px;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.086);
+}
+
+#feature_card .card .card_top img {
+    width: 100px;
+    height: 100px;
+    padding: 10px 0;
+}
+
+#feature_card .card h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#feature_card .card p {
+    font-size: 14px;
+    padding: 5px 10px 10px 10px;
+}
+
+
+/*==== About Us Section =====*/
+#about_us {
+    margin: 0;
+    padding: 50px 0;
+}
+
+#about_us h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#about_us p {
+    font-size: 18px;
+}
+
+/*==== Vision & Mission =====*/
+#vision_mission {
+    margin: 0;
+    padding: 20px 0;
+}
+
+
+/*===== How We Do =====*/
+#how_we_do {
+    margin: 0;
+    padding: 50px 0;
+}
+
+#how_we_do .question_mark {
+    font-size: 70px;
+    color: var(--primary);
+}
+
+/*====== Who We Are ======*/
+#who_we {
+    margin: 0;
+    padding: 50px 0 70px 0;
+}
+
+#who_we .question_mark {
+    font-size: 70px;
+    color: var(--primary);
+}
+
+
+
+
+/* 
+========================================
+========================================
+    OUR PRODUCT PAGE
+========================================
+========================================
+*/
+#our_product {
+    margin: 0;
+    padding: 50px 0;
+}
+
+#our_product h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.our_product_card {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.153);
+}
+
+.our_product_card img {
+    transition: all .3s ease-in-out;
+}
+.our_product_card img:hover {
+    transform: scale(1.1);
+}
+
+.our_product_card h3 {
+    padding: 20px 0;
+    margin: 0;
+    background: #8b8b8b25;
+}
+
+.our_product_card .product_table {
+    padding: 0px 20px 20px 20px;
+}
+
+.our_product_card .product_table table tr,
+.our_product_card .product_table table td {
+    border: 1px solid #bfbfbf;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+}
+
+.our_product_card .product_table table tr:first-child 
+{
+    border-top: none;
+}
+.our_product_card .product_table table td:nth-child(2)
+{
+    border-top: none;
+}
+
+.our_product_card .product_table table tr,
+.our_product_card .product_table table td:last-child {
+    border-bottom: none;
+}
+
+.our_product_card .product_table table th {
+    border: 1px solid #bfbfbf;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+
+/* 
+========================================
+========================================
+    APPLICATION PAGE
+========================================
+========================================
+*/
+#application_sec {
+    margin: 0;
+    padding: 50px 0;
+}
+
+#application_sec h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* 
+=====================================
+=====================================
+    Contact US Page
+=====================================
+=====================================
+*/
+#contact_us {
+    margin: 0;
+    padding: 50px 0;
+}
+
+#contact_us h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contact_form {
+    padding: 20px 0 0 0;
+}
+
+.contact_form input {
+    padding: 10px;
+}
+
+.contact_form .input-group i {
+    padding: 3px;
+    font-size: 16px;
+}
+
+.contact_form input:focus {
+    border-color: var(--primary);
+}
+
+.contact_form input::placeholder,
+.contact_form textarea::placeholder {
+    font-size: 14px;
+}
+
+.contact_form textarea {
+    padding: 10px;
+}
+
+.contact_form button {
+    padding: 15px;
+}
+
+.contact_info .contact_info_detail a {
+    display: block;
+    margin: 15px 0;
+    color: var(--dark);
+}
+
+.contact_info .contact_info_detail a:hover {
+    color: var(--primary);
+}
+
+.contact_info .contact_info_detail a i {
+    color: #ec4c2c;
+    padding-right: 10px;
+}
+
+
