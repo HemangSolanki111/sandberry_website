@@ -12,6 +12,27 @@
     header .navbar .nav-link {
         margin-right: 0px;
     }
+
+    /*===== HOME PAGE =======*/
+    /* Counter */
+    .counter_card {
+        margin: 5px auto;
+        justify-content: center;
+    }
+
+    .counter_card img {
+        width: 70px;
+    }
+
+    .counter_card .counter_detail h2 {
+        font-size: 24px;
+    }
+
+    .counter_card .counter_detail h4 {
+        font-size: 20px;
+    }
+
+
 }
 @media (max-width:768px) {
     h1 {
@@ -128,5 +149,22 @@
         height: 25px;
         border: none;
     }
-}
 
+    /*===== HOME PAGE =======*/
+    /* Counter */
+    #counter_sec {
+        padding: 50px 0 20px 0;
+    }
+
+    .counter_card img {
+        width: 50px;
+    }
+
+    .counter_card .counter_detail h2 {
+        font-size: 20px;
+    }
+
+    .counter_card .counter_detail h4 {
+        font-size: 18px;
+    }
+}

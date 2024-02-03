@@ -19,6 +19,12 @@ navBar.forEach(function (a) {
 });
 
 
+$(document).click(function(event) {
+    if(!$(event.target).is('.navbar-collapse *')) {
+        $('.navbar-collapse').collapse('hide');
+    }
+});
+
 
 // Header carousel
 $(".header-carousel").owlCarousel({
@@ -33,3 +39,25 @@ $(".header-carousel").owlCarousel({
     //     '<i class="bi bi-chevron-right"></i>'
     // ]
 });
+
+
+
+// Counter 
+// function updateCounter() {
+//     let count = parseInt(localStorage.getItem('counter1')) || 2543258;
+
+//     document.getElementById('counter1').innerText = count;
+
+//     count++;
+
+//     localStorage.setItem('counter1', count);
+
+// }
+
+// function refreshPage() {
+//     setTimeout(function () {
+//         updateCounter();
+//         refreshPage();
+//     }, 1000);
+// }
+// refreshPage();

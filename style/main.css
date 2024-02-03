@@ -314,12 +314,12 @@ footer .footer_quicklink a:hover::after {
 
 
 
-
-/*
-========================
-    Banner Start 
-========================
+/*====================
+    HOME PAGE
+=======================
 */
+
+/*======= Banner Start ==========*/
 .header-carousel .btn {
     background-color: var(--primary);
     border: none;
@@ -416,6 +416,32 @@ footer .footer_quicklink a:hover::after {
 }
 
 /*========= Banner ENd ============*/
+
+
+/*========= Counter Start ============*/
+#counter_sec {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.counter_card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px auto;
+    padding: 20px 30px;
+    width: fit-content;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 104px 0px #e4effad8;
+}
+
+.counter_card img {
+    width: 80px;
+}
+
+
+/*========= Counter ENd ============*/
 
 
 /*========== Welcome Section ========*/
