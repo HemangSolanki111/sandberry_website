@@ -8,6 +8,10 @@
         border: none !important;
         outline: none !important;
     }
+
+    header .navbar .nav-link {
+        margin-right: 0px;
+    }
 }
 @media (max-width:768px) {
     h1 {
@@ -20,6 +24,10 @@
 
     h3 {
         font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     /* header */
@@ -54,11 +62,60 @@
 }
 
 @media (max-width:480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+
+    /* Header start */
+    .navbar-collapse {
+        padding: 10px;
+    }
+
+    header .navbar .nav-link {
+        margin-top: 7px;
+    }
+
     /* Welcome Section */
     .welcome_sec h2 {
         font-size: 30px;
     }
-    
+
+    /*======= OUR PRODUCT PAGE ====*/
+    #our_product h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    /*======== APPLICATION PAGE =======*/
+    #application_sec h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    /*====== CONTACT US PAGE ========*/
+    #contact_us h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contact_form button {
+        padding: 8px;
+    }
+
 }
 @media (max-width:320px) {
     /* Header */

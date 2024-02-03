@@ -19,12 +19,12 @@ body {
     --dark: #353535;
 }
 
-/* .owl-carousel .owl-stage {
+.owl-carousel .owl-stage {
     padding: 0 !important;
     margin: 0 !important;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     box-shadow: none !important;
-} */
+}
 
 a, 
 button {
@@ -99,7 +99,7 @@ p {
     color: var(--dark);
     margin: 0;
     padding: 10px 0;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -296,7 +296,7 @@ footer .footer_quicklink a::after {
     height: 2px;
     background-color: var(--primary);
     left: 0;
-    top: 20px;
+    top: 18px;
 }
 
 footer .footer_quicklink a:hover::after {
@@ -579,7 +579,7 @@ footer .footer_quicklink a:hover::after {
     padding: 50px 0;
 }
 
-#our_product h1 {
+#our_product h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
