@@ -508,11 +508,17 @@ footer .footer_quicklink a:hover::after {
     padding: 50px 0;
 }
 
+.welcome_sec .container {
+    max-width: 90%;
+}
+
 .welcome_sec h2 {
     font-weight: 700;
     font-size: 48px;
+    text-transform: uppercase;
 }
 /*========== Welcome Section End ========*/
+
 
 /*========== Our Product Start ========*/
 .our_product_sec {
@@ -532,6 +538,7 @@ footer .footer_quicklink a:hover::after {
 .our_product_sec p {
     margin-bottom: 20px;
     overflow-x: hidden;
+    text-align: justify;
 }
 
 .our_product_sec figure {
@@ -552,6 +559,7 @@ footer .footer_quicklink a:hover::after {
 .why_choose {
     margin: 0;
     padding: 50px 0;
+    text-align: justify;
 }
 
 .why_choose h2 {
@@ -623,6 +631,7 @@ footer .footer_quicklink a:hover::after {
 #vision_mission {
     margin: 0;
     padding: 20px 0;
+    text-align: justify;
 }
 
 
@@ -630,6 +639,7 @@ footer .footer_quicklink a:hover::after {
 #how_we_do {
     margin: 0;
     padding: 50px 0;
+    text-align: justify;
 }
 
 #how_we_do .question_mark {
@@ -669,6 +679,10 @@ footer .footer_quicklink a:hover::after {
     font-weight: 800;
     font-size: 50px;
     margin-bottom: 20px;
+}
+
+#our_product p {
+    text-align: justify;
 }
 
 .our_product_card {
