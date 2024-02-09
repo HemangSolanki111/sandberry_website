@@ -635,6 +635,10 @@ footer .footer_quicklink a:hover::after {
     font-size: 18px;
 }
 
+#how_we_do img {
+    width:70%;
+}
+
 /*==== Vision & Mission =====*/
 #vision_mission {
     margin: 0;
@@ -642,6 +646,9 @@ footer .footer_quicklink a:hover::after {
     text-align: justify;
 }
 
+#vision_mission img{
+    width: 50%;
+}
 
 /*===== How We Do =====*/
 #how_we_do {
