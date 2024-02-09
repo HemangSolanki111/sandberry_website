@@ -529,6 +529,7 @@ footer .footer_quicklink a:hover::after {
 .our_product_sec h1 {
     text-transform: uppercase;
     text-align: center;
+    font-weight: 700;
 }
 
 .our_product_sec h2 {
