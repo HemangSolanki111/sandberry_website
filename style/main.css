@@ -508,9 +508,10 @@ footer .footer_quicklink a:hover::after {
     padding: 50px 0;
 }
 
-.welcome_sec .container {
-    max-width: 90%;
+.welcome_sec p {
+    max-width: 80%;
 }
+
 
 .welcome_sec h2 {
     font-weight: 700;
