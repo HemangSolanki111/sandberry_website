@@ -147,11 +147,11 @@ section {
 
 /*========= Top Header ==========*/
 .top_header {
-    color: #35353584;
+    color: #353535e8;
 }
 
 .top_header a {
-    color: #35353584;
+    color: #1a1a1a84;
 }
 
 /*========== HEADER START ========*/
@@ -463,13 +463,14 @@ footer .footer_quicklink a:hover::after {
     height: 7px;
     top: 4px;
     left: 4px;
-    background: transparent;
-    border: 1px solid #FFFFFF;
+    background: white;
+    border-radius: 100%;
 }
 
 .header-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: white;
+    /* border-color: var(--primary); */
+    border-radius: 100%;
 }
 
 /*========= Banner ENd ============*/
