@@ -333,24 +333,9 @@
                     <img src="img/happy_client_icon.png" alt="">
                     <div class="counter_detail">
                         <h2 class="">
-                            <h2 class="counter.value text-center"><span class="counter">231</span>+</h2>
+                            <h2 class="text-center"><span class="counter-value">231</span>+</h2>
                             <!-- <span class="text"></span> -->
                         </h2>
-                        <script>
-                            $(document).ready(function () {
-                                $('.counter-value').each(function () {
-                                    $(this).prop('Counter', 0).animate({
-                                        Counter: $(this).text()
-                                    }, {
-                                        duration: 3500,
-                                        easing: 'swing',
-                                        step: function (now) {
-                                            $(this).text(Math.ceil(now));
-                                        }
-                                    });
-                                });
-                            });
-                        </script>
 
                         <!-- <script type="text/javascript">
                             let Yarnsthen = new Date("2024");
@@ -386,14 +371,17 @@
             <h2>Welcome To The World of Plastic Recycling</h2>
 
             <div class="row">
-                <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">RPSF or Recycled Polyester Staple Fiber with high tenacity is produced in various cut lengths and
+                <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">RPSF or Recycled Polyester Staple
+                    Fiber with high tenacity is produced in various cut lengths and
                     different denier’s suitable for different industries like spining, Non-woven, textile etc. RPSF is
                     majorly available in off white, super white, black & dope dyed colors.</p>
-                <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">RPSF can be diversified as solid and hollow.we produce deniers vary from 1 to 3.0. in order of
+                <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">RPSF can be diversified as solid and
+                    hollow.we produce deniers vary from 1 to 3.0. in order of
                     application fiber is divided in to high tenacity & medium tenacity. Pet flakes are produced from
                     used Bottles and then after washing it can be used in manufacturies of sheets, RPSF, poly-straps
                     etc.</p>
-                <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">More use of Recycled Pet Flakes can encourage use of recycled plastics & thus help save environment.
+                <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">More use of Recycled Pet Flakes can
+                    encourage use of recycled plastics & thus help save environment.
                     Pet flakes are produced using advanced washing line to get minimum impurities. We produce flakes
                     below 150 PPM.</p>
             </div>
@@ -417,8 +405,8 @@
                     <a href="products.html" class="org-btn" data-aos="fade-up" data-aos-duration="900">More Info</a>
                 </div>
                 <div class="col-md-6 p-md-5 py-5">
-                    <figure data-aos="fade-up" data-aos-delay="50" data-aos-duration="900"><img src="img/Our Products - 1-min.png" alt=""
-                            class="img-fluid"></figure>
+                    <figure data-aos="fade-up" data-aos-delay="50" data-aos-duration="900"><img
+                            src="img/Our Products - 1-min.png" alt="" class="img-fluid"></figure>
                 </div>
             </div>
 
@@ -439,8 +427,8 @@
                     <!-- <a href="" class="org-btn">More Info</a> -->
                 </div>
                 <div class="col-md-6 p-md-5 py-5">
-                    <figure data-aos="fade-up" data-aos-delay="50" data-aos-duration="900"><img src="img/sandbery website 02.png"
-                            alt="" class="img-fluid"></figure>
+                    <figure data-aos="fade-up" data-aos-delay="50" data-aos-duration="900"><img
+                            src="img/sandbery website 02.png" alt="" class="img-fluid"></figure>
                 </div>
             </div>
         </div>
@@ -556,6 +544,21 @@
     <!-- Jquery CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="script/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.counter-value').each(function(){
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).text()
+                },{
+                    duration: 3500,
+                    easing: 'swing',
+                    step: function (now){
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+        });
+    </script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -566,7 +569,7 @@
     </script>
     <!-- main js -->
 
-<script src='script/main.js'></script>
+    <script src='script/main.js'></script>
 </body>
 
 </html>
